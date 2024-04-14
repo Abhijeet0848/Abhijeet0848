@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define MAX 100
+#define INF 9999999
+
+int cost[MAX][MAX];
+int visited[MAX];
+
+int main() {
+    int i, j, n, no_edge = 0;
+    int a, u, b, v, min, mincost = 0;
+
+    printf("Enter the number of nodes: ");
+    scanf("%d", &n);
+
+    printf("\nEnter the adjacency matrix:\n");
+    for (i = 1; i <= n; i++) {
+        for (j = 1; j <= n; j++) {
+            scanf("%d", &cost[i][j]);
+            if (cost[i][j] == 0) {
+                cost[i][j] = INF;
+            }
+        }
+    }
+      for (i = 1; i <= n; i++) {
+        visited[i]=0;
+      }
+
+    visited[1] = 1;
+
+
+    while (no_edge < n - 1) {
+        min = INF;
+        for (i = 1; i <= n; i++) {
+            if (visited[i]==1) {
+                for (j = 1; j <= n; j++) {
+                    if (visited[j]==0 && cost[i][j]!=0) {
+                        if (min > cost[i][j]) {
+                            min = cost[i][j];
+                            a = u = i;
+                            b = v = j;
+                        }
+                    }
+                }
+            }
+        }
+
+        if (visited[v]==0) {
+            printf("%d  ->  %d  =  %d\n", a, b, min);
+            mincost += min;
+            visited[v] = 1;
+            no_edge++;
+        }
+    }
+
+    printf("\nMinimum cost of the spanning tree: %d\n",mincost);
+
+    return 0;
+}
+   // 0 10 0 5 0 10 0 1 2 0 0 1 0 0 2 5 2 0 0 8 0 0 2 8 0
