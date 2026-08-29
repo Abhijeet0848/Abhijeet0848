@@ -107,6 +107,32 @@ I'm an MCA student passionate about **software development, full-stack web appli
 
 ## 🚀 Featured Projects
 
+### 🏢 Vrundavan Society — Modern Society Maintenance & Community Portal
+
+> A full-stack, enterprise-grade community portal designed to streamline society administration, maintenance payments, incident resolution, facility bookings, and resident communications.
+
+**✨ Key Features:**
+
+* 💳 **Online Maintenance Payments** & instant invoice/receipt generation
+* 🛠️ **Complaints & Incident Helpdesk** with real-time status tracking
+* 🤖 **24/7 AI Helpdesk Assistant** for automated resident support
+* 🏊 **Amenities & Facility Booking** (Club House, Gymnasium, Swimming Pool)
+* 📢 **Digital Notice Board** with automated broadcast notifications
+* 👥 **Verified Resident Directory** with quick contact coordination
+* 🔐 **Role-Based Access Control (RBAC)** (Admin Incharge vs. Residents)
+* 🛡️ **Two-Factor Authentication (2FA)** & local cryptographic token security
+
+**🛠️ Technology:**
+`React 19` `TypeScript` `Tailwind CSS` `Node.js` `Express.js` `MongoDB Atlas` `Mongoose` `Cloudflare Pages` `Vercel`
+
+**🌐 Live Demo:**
+https://vrundavan-society.pages.dev
+
+**🔗 Repository:**
+https://github.com/Abhijeet0848/Society-maintenance
+
+---
+
 ### 🥇 Smart Placement Portal — AI-Powered Campus Recruitment Platform
 
 > A full-stack campus placement platform designed to connect students, recruiters, and placement administrators with AI-powered features.
@@ -199,8 +225,8 @@ https://drillbit-indol.vercel.app/
 * 🔎 Search & filtering
 * ⚙️ Vacancy calculation logic
 * 📊 User-friendly data presentation
+----
 
----
 
 ## 📂 Featured Repository
 
