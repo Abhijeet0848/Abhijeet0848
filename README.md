@@ -133,6 +133,31 @@ https://github.com/Abhijeet0848/Society-maintenance
 
 ---
 
+### ⚡ ZenTask — Premium & Secure Task Management Web Application
+
+> A modern, glassmorphic productivity and task management web application built for peak focus, featuring drag-and-drop planning, interactive calendar views, visual productivity analytics, and enterprise-grade security.
+
+**✨ Key Features:**
+
+* 📋 **Interactive Kanban/Board View** with smooth HTML5 drag-and-drop task reordering
+* 📅 **Calendar Visualization** for scheduled due dates and daily workload inspection
+* 📊 **Visual Productivity Analytics** (14-day completion trends, category & priority charts via Chart.js)
+* 🤖 **Built-in AI Assistant (ZenBot)** for automated task summaries and productivity coaching
+* 🔐 **Secure Authentication & Recovery** with cryptographic timed password reset tokens & Gmail SMTP
+* 📎 **Task Attachments & Exports** supporting file uploads (up to 16MB) and one-click PDF/CSV exports
+* 📱 **Ultra-Responsive Multi-Screen UI** with dedicated mobile bottom navigation bar & dark/light themes
+* 🛡️ **Enterprise Security Hardening** with CSRF token verification, CSP headers, and rate limiting
+
+**🛠️ Technology:**
+`Python 3.10+` `Flask` `MongoDB Atlas` `PyMongo` `SQLAlchemy` `JavaScript (ES6+)` `Chart.js` `ReportLab` `CSS3 Glassmorphism` `Vercel`
+
+**🌐 Live Demo:**
+https://to-do-task-gules-five.vercel.app/
+
+**🔗 Repository:**
+https://github.com/Abhijeet0848/To-do-task-
+
+---
 ### 🥇 Smart Placement Portal — AI-Powered Campus Recruitment Platform
 
 > A full-stack campus placement platform designed to connect students, recruiters, and placement administrators with AI-powered features.
