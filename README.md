@@ -126,7 +126,7 @@ I'm an MCA student passionate about **software development, full-stack web appli
 `React 19` `TypeScript` `Tailwind CSS` `Node.js` `Express.js` `MongoDB Atlas` `Mongoose` `Cloudflare Pages` `Vercel`
 
 **🌐 Live Demo:**
-https://vrundavan-society.pages.dev
+http://society-maintenance.gautamabhijeet050.workers.dev
 
 **🔗 Repository:**
 https://github.com/Abhijeet0848/Society-maintenance
